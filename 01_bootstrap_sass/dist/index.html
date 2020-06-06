@@ -3,12 +3,551 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="welcome to my food blog">
+    <meta name="keywords" content="yummy food, potato, way to go, blog">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
+    <title>my food blog | welcome</title>
 </head>
 <body>
-    
-    
+    <header id="home">
+        <div class="container-fluid bg-dark text-white">
+            <div class="container">
+                <div class="row align-items-center py-2" id="subscribe-navbar">
+                    <div class="col-md-7">
+                        <h5 class="h5 d-inline">subscribe</h5>
+                        <small class="text-white">and get our eCookbook</small>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                            </div>
+                            <input type="email" class="form-control" placeholder="email your email">
+                            <div class="input-group-append">
+                                <button class="btn btn-secondary" type="button">sign up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-light">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a href="index.html" class="navbar-brand">my <span class="text-primary">food</span> blog</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav ml-auto mr-5">
+                            <li class="navbar-item">
+                                <a href="about.html" class="nav-link">about</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="recipes.html" class="nav-link">recipes</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="blog.html" class="nav-link">blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="social d-none d-md-flex">
+                        <div class="social-icon mr-2">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                        </div>
+                        <div class="social-icon mr-2">
+                            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                        <div class="social-icon mr-2">
+                            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                        </div>
+                        <div class="social-icon mr-2">
+                            <a href="https://pinterest.com/" target="_blank"><i class="fab fa-pinterest fa-2x"></i></a>
+                        </div>
+                        <div class="social-icon mr-2">
+                            <a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="header-search py-5 text-white">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-8 m-auto text-center">
+                        <h3 class="h3">what would you like to <span class="text-primary">cook</span> today?</h3>
+                        <div class="input-group input-group-lg py-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fas fa-search"></i></span>
+                            </div>
+                            <input type="email" class="form-control" placeholder="find a recipe">
+                            <div class="input-group-append">
+                                <button class="btn btn-secondary" type="button">search</button>
+                            </div>
+                        </div>
+                        <h5 class="h5">searched today</h5>
+                        <div class="row my-2">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-light">vegetarian dinner</a>
+                                <a href="#" class="btn btn-light">vegan dessert</a>
+                                <a href="#" class="btn btn-light">low-fat breakfast</a>
+                            </div>
+                        </div>
+                        <div class="row my-2">
+                            <div class="col-8 m-auto">
+                                <a href="#" class="btn btn-light">mexican quesadilla</a>
+                                <a href="#" class="btn btn-light">thai snack</a>
+                            </div>
+                        </div>
+                        <div class="row my-2">
+                            <div class="col-4 m-auto">
+                                <a href="#" class="btn btn-light">bbq chicken</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="showcase" class="bg-light py-5 position-relative razor-blade">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="h2">most <span class="text-primary">popular</span></h2>
+                    <div class="embed-responsive embed-responsive-16by9 my-3">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jJ9WBmsTI1c"
+                            allowfullscreen></iframe>
+                    </div>
+                    <p class="text-right"><a href="recipes.html"><small class="text-muted">see more <i class="fas fa-arrow-right"></i></small></a></p>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="h2">trending <span class="text-primary">recipes</span></h2>
+                    <div class="card-deck my-3">
+                        <div class="card border-primary shadow-lg position-relative overflow-hidden">
+                            <a href="blog-post.html" class="overflow-hidden">
+                                <img src="./img/showcase-trending-1-sm.jpg" alt="" class="card-img-top recipe-img">
+                            </a>
+                            <div class="card-body bg-dark text-white text-center d-flex flex-column justify-content-center">
+                                <p class="card-text">
+                                    traditional american pancakes
+                                </p>
+                            </div>
+                            <span class="recipe-banner"><span class="bg-primary text-white py-1 px-2"><span>snack</span></span></span>
+                        </div>
+                        <div class="card border-primary shadow-lg position-relative overflow-hidden">
+                            <a href="blog-post.html" class="overflow-hidden">
+                                <img src="./img/showcase-trending-2-sm.jpg" alt="" class="card-img-top recipe-img">
+                            </a>
+                            <div class="card-body bg-dark text-white text-center">
+                                <p class="card-text">
+                                    salad with chicken, spinach and pomegranate
+                                </p>
+                            </div>
+                            <span class="recipe-banner"><span class="bg-primary text-white py-1 px-2"><span>salad</span></span></span>
+                        </div>
+                    </div>
+                    <p class="text-right"><a href="recipes.html"><small class="text-muted">see more <i class="fas fa-arrow-right"></i></small></a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="h2">meet the <span class="text-primary">blogger</span></h2>
+                    <div class="card border-primary shadow-lg my-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4 overflow-hidden">
+                                <img src="./img/meet-the-blogger-1-sm.jpg" class="card-img h-100 recipe-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">hello! how are y'all doing?</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sit aliquid error, ex voluptatem tempore est pariatur inventore dicta delectus!</p>
+                                    <p class="card-text text-right"><a href="about.html"><small class="text-muted">learn more <i class="fas fa-arrow-right"></i></small></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="h2"><span class="text-primary">explore</span> by category</h2>
+                    <div class="row">
+                        <div class="col-sm-6 d-flex flex-column align-items-center">
+                            <i class="fas fa-bacon fa-3x my-1 text-dark"></i>
+                            <a href="#"><span class="inline-recipe-banner py-1 px-2 bg-secondary text-white mb-2"><span>breakfast</span></span></a>
+                        </div>
+                        <div class="col-sm-6 d-flex flex-column align-items-center">
+                            <i class="fas fa-cookie-bite fa-3x my-1 text-dark"></i>
+                            <a href="#"><span class="inline-recipe-banner py-1 px-2 bg-secondary text-white mb-2"><span>brunch</span></span></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 d-flex flex-column align-items-center">
+                            <i class="fas fa-bread-slice fa-3x my-1 text-dark"></i>
+                            <a href="#"><span class="inline-recipe-banner py-1 px-2 bg-secondary text-white mb-2"><span>lunch</span></span></a>
+                        </div>
+                        <div class="col-sm-6 d-flex flex-column align-items-center">
+                            <i class="fas fa-utensils fa-3x my-1 text-dark"></i>
+                            <a href="#"><span class="inline-recipe-banner py-1 px-2 bg-secondary text-white mb-2"><span>dinner</span></span></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 d-flex flex-column align-items-center">
+                            <i class="fas fa-ice-cream fa-3x my-1 text-dark"></i>
+                            <a href="#"><span class="inline-recipe-banner py-1 px-2 bg-secondary text-white mb-2"><span>dessert</span></span></a>
+                        </div>
+                        <div class="col-sm-6 d-flex flex-column align-items-center">
+                            <i class="fas fa-cocktail fa-3x my-1 text-dark"></i>
+                            <a href="#"><span class="inline-recipe-banner py-1 px-2 bg-secondary text-white mb-2"><span>coctail</span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="latest-posts" class="bg-dark py-5">
+        <div class="container">
+            <h2 class="h2"><span class="text-primary">the latest</span> posts</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card border-primary my-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-6 position-relative overflow-hidden">
+                                <img src="./img/latest-posts-post-1-sm.jpg" class="card-img recipe-img" alt="...">
+                                <div class="img-overlay bg-white d-flex align-items-center justify-content-between p-2">
+                                    <div class="d-flex align-items-center text-muted">
+                                        <i class="far fa-clock mr-1"></i>
+                                        <small>50 mins</small>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-subtitle text-uppercase text-muted"><small>june 1, 2020</small></h5>
+                                    <h4 class="card-title my-3"><a href="#">beautiful cheeseburger with rich insides</a></h5>
+                                    <p class="card-text text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sit aliquid error, ex
+                                        voluptatem tempore est pariatur inventore dicta delectus!</p>
+                                    <p class="card-text text-left"><a href="blog-post.html"><small class="text-muted">continue reading <i
+                                                    class="fas fa-arrow-right"></i></small></a></p>
+                                    <p class="card-text text-left"><a href="#"><small class="text-muted">10 comments</small></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-primary my-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-6 position-relative overflow-hidden">
+                                <img src="./img/latest-posts-post-2-sm.jpg" class="card-img recipe-img" alt="...">
+                                <div class="img-overlay bg-white d-flex align-items-center justify-content-between p-2">
+                                    <div class="d-flex align-items-center text-muted">
+                                        <i class="far fa-clock mr-1"></i>
+                                        <small>25 mins</small>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-subtitle text-uppercase text-muted"><small>may 25, 2020</small></h5>
+                                    <h4 class="card-title my-3"><a href="#">green leafy vegetable salad</a></h5>
+                                        <p class="card-text text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sit aliquid
+                                            error, ex
+                                            voluptatem tempore est pariatur inventore dicta delectus!</p>
+                                        <p class="card-text text-left"><a href="blog-post.html"><small class="text-muted">continue reading <i
+                                                        class="fas fa-arrow-right"></i></small></a></p>
+                                        <p class="card-text text-left"><a href="#"><small class="text-muted">30 comments</small></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <div class="card border-primary my-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-6 position-relative overflow-hidden">
+                                <img src="./img/latest-posts-post-4-sm.jpg" class="card-img recipe-img" alt="...">
+                                <div class="img-overlay bg-white d-flex align-items-center justify-content-between p-2">
+                                    <div class="d-flex align-items-center text-muted">
+                                        <i class="far fa-clock mr-1"></i>
+                                        <small>35 mins</small>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-subtitle text-uppercase text-muted"><small>may 20, 2020</small></h5>
+                                    <h4 class="card-title my-3"><a href="#">rice with zucchini, soft boiled egg and parsley</a></h5>
+                                        <p class="card-text text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sit aliquid
+                                            error, ex
+                                            voluptatem tempore est pariatur inventore dicta delectus!</p>
+                                        <p class="card-text text-left"><a href="blog-post.html"><small class="text-muted">continue reading <i
+                                                        class="fas fa-arrow-right"></i></small></a></p>
+                                        <p class="card-text text-left"><a href="#"><small class="text-muted">1 comments</small></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <div class="card border-primary my-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-6 position-relative overflow-hidden">
+                                <img src="./img/latest-posts-post-3-sm.jpg" class="card-img recipe-img" alt="...">
+                                <div class="img-overlay bg-white d-flex align-items-center justify-content-between p-2">
+                                    <div class="d-flex align-items-center text-muted">
+                                        <i class="far fa-clock mr-1"></i>
+                                        <small>45 mins</small>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-subtitle text-uppercase text-muted"><small>may 12, 2020</small></h5>
+                                    <h4 class="card-title my-3"><a href="#">extraordinary cooked seafood</a></h5>
+                                        <p class="card-text text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sit aliquid
+                                            error, ex
+                                            voluptatem tempore est pariatur inventore dicta delectus!</p>
+                                        <p class="card-text text-left"><a href="blog-post.html"><small class="text-muted">continue reading <i
+                                                        class="fas fa-arrow-right"></i></small></a></p>
+                                        <p class="card-text text-left"><a href="#"><small class="text-muted">100 comments</small></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="card-text text-right"><a href="blog.html"><small class="text-white">see more recipes <i
+                            class="fas fa-arrow-right"></i></small></a></p>
+        </div>
+    </section>
+    <section id="inline-subscribe" class="inline-subscribe py-5">
+        <div class="container-fluid text-dark">
+            <div class="container">
+                <div class="row align-items-center py-2" id="subscribe-navbar">
+                    <div class="col-md-6">
+                        <h5 class="display-4">want to see more? </h5>
+                        <p class="lead">sign up for our weekly newsletter!</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                            </div>
+                            <input type="email" class="form-control" placeholder="email your email">
+                            <div class="input-group-append">
+                                <button class="btn btn-secondary" type="button">sign up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="recipes-gallery" class="bg-light py-5">
+        <div class="container">
+            <div class="card-columns">
+                <div class="card border-primary shadow bg-secondary p-3">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>All you need is love. But a little chocolate now and then doesn't hurt.</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Charles M. Schulz
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card border-primary shadow position-relative overflow-hidden">
+                    <a href="blog-post.html" class="overflow-hidden">
+                        <img src="./img/recipes-gallery-1-sm.jpg" alt="" class="card-img-top recipe-img">
+                    </a>
+                    <div class="card-body bg-dark text-white text-center d-flex flex-column justify-content-center">
+                        <p class="card-text">
+                            colourful oatmeal breakfast
+                        </p>
+                    </div>
+                    <span class="recipe-banner"><span class="bg-primary text-white py-1 px-2"><span>breakfast</span></span></span>
+                </div>
+                <div class="card border-primary shadow position-relative overflow-hidden">
+                    <a href="blog-post.html" class="overflow-hidden">
+                        <img src="./img/recipes-gallery-2-sm.jpg" alt="" class="card-img-top recipe-img">
+                    </a>
+                    <div class="card-body bg-dark text-white text-center d-flex flex-column justify-content-center">
+                        <p class="card-text">
+                            yummy blueberry chocolate cake
+                        </p>
+                    </div>
+                    <span class="recipe-banner"><span class="bg-primary text-white py-1 px-2"><span>dessert</span></span></span>
+                </div>
+                <div class="card border-primary shadow position-relative overflow-hidden">
+                    <a href="blog-post.html" class="overflow-hidden">
+                        <img src="./img/recipes-gallery-3-sm.jpg" alt="" class="card-img-top recipe-img">
+                    </a>
+                    <div class="card-body bg-dark text-white text-center d-flex flex-column justify-content-center">
+                        <p class="card-text">
+                            fries with leaves
+                        </p>
+                    </div>
+                    <span class="recipe-banner"><span class="bg-primary text-white py-1 px-2"><span>snack</span></span></span>
+                </div>
+                <div class="card bg-primary text-white text-center p-3">
+                    <blockquote class="blockquote mb-0">
+                        <p>There is no love sincerer than the love of food.</p>
+                        <footer class="blockquote-footer text-white">
+                            <small>
+                                George Bernard Shaw <cite title="Source Title">Man and Superman</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card border-primary shadow position-relative overflow-hidden">
+                    <a href="blog-post.html" class="overflow-hidden">
+                        <img src="./img/recipes-gallery-4-sm.jpg" alt="" class="card-img-top recipe-img">
+                    </a>
+                    <div class="card-body bg-dark text-white text-center d-flex flex-column justify-content-center">
+                        <p class="card-text">
+                            delicious pierogies
+                        </p>
+                    </div>
+                    <span class="recipe-banner"><span class="bg-primary text-white py-1 px-2"><span>dinner</span></span></span>
+                </div>
+                <div class="card border-primary shadow bg-secondary p-3">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>I cook with wine, sometimes I even add it to the food.</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                W.C. Fields
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card border-primary shadow position-relative overflow-hidden">
+                    <a href="blog-post.html" class="overflow-hidden">
+                        <img src="./img/recipes-gallery-5-sm.jpg" alt="" class="card-img-top recipe-img">
+                    </a>
+                    <div class="card-body bg-dark text-white text-center d-flex flex-column justify-content-center">
+                        <p class="card-text">
+                            baked salmon
+                        </p>
+                    </div>
+                    <span class="recipe-banner"><span class="bg-primary text-white py-1 px-2"><span>dinner</span></span></span>
+                </div>
+                <div class="card border-primary shadow position-relative overflow-hidden">
+                    <a href="blog-post.html" class="overflow-hidden">
+                        <img src="./img/recipes-gallery-6-sm.jpg" alt="" class="card-img-top recipe-img">
+                    </a>
+                    <div class="card-body bg-dark text-white text-center d-flex flex-column justify-content-center">
+                        <p class="card-text">
+                            pasta with tomato and basil
+                        </p>
+                    </div>
+                    <span class="recipe-banner"><span class="bg-primary text-white py-1 px-2"><span>lunch</span></span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="home-footer" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card text-dark text-center bg-secondary">
+                        <div class="card-header">
+                            my <span class="text-primary">food</span> blog
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item p-0 bg-transparent"><a href="about.html" class="btn btn-link text-dark">about</a></li>
+                            <li class="list-group-item p-0 bg-transparent"><a href="#" class="btn btn-link text-dark">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card text-dark text-center bg-secondary">
+                        <div class="card-header">
+                            food <span class="text-primary">&</span> recipes
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item p-0 bg-transparent"><a href="recipes.html" class="btn btn-link text-dark">recipes</a></li>
+                            <li class="list-group-item p-0 bg-transparent"><a href="blog.html" class="btn btn-link text-dark">blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 ml-auto text-center">
+                    <h5 class="h5 d-inline">sign up</h5>
+                    <small class="text-white">for weekly email updates now</small>
+                    <div class="input-group my-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                        </div>
+                        <input type="email" class="form-control" placeholder="email your email">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">sign up</button>
+                        </div>
+                    </div>
+                    <div class="social d-flex justify-content-center">
+                        <p class="lead mr-3">follow us</p>
+                        <div class="social-icon mr-2">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x text-white"></i></a>
+                        </div>
+                        <div class="social-icon mr-2">
+                            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x text-white"></i></a>
+                        </div>
+                        <div class="social-icon mr-2">
+                            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-2x text-white"></i></a>
+                        </div>
+                        <div class="social-icon mr-2">
+                            <a href="https://pinterest.com/" target="_blank"><i class="fab fa-pinterest fa-2x text-white"></i></a>
+                        </div>
+                        <div class="social-icon mr-2">
+                            <a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-sm-8 m-auto text-center">
+                    <p class="lead">all rights reserved. &copy; 2020. my food blog</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </body>
 </html>

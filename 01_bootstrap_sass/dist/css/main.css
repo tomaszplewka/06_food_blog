@@ -1,3 +1,184 @@
-body {
-  background: blue;
-  font-size: 20px; }
+header .header-search {
+  background: url(../img/header-showcase-1-lg.jpg) no-repeat center center/cover;
+  background-attachment: fixed; }
+
+.recipe-img {
+  height: 150px;
+  object-fit: cover;
+  transition: all 0.4s ease; }
+  .recipe-img:hover {
+    transform: scale(1.2); }
+
+.img-fluid {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; }
+
+.recipe-banner {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 0; }
+  .recipe-banner > span {
+    position: relative; }
+    .recipe-banner > span::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: inherit;
+      transform: skew(45deg); }
+    .recipe-banner > span::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: inherit;
+      transform: skew(-45deg); }
+    .recipe-banner > span span {
+      position: relative;
+      z-index: 100; }
+
+.inline-recipe-banner {
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  position: relative;
+  transition: all 0.4s; }
+  .inline-recipe-banner:hover {
+    background-color: #41b55a !important; }
+  .inline-recipe-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    transform: skew(45deg); }
+  .inline-recipe-banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    transform: skew(-45deg); }
+  .inline-recipe-banner span {
+    position: relative;
+    z-index: 100;
+    vertical-align: text-bottom; }
+
+.img-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%; }
+
+.social-icon i {
+  transition: all 0.3s ease; }
+  .social-icon i:hover {
+    color: #37dc82;
+    transform: rotate(360deg); }
+
+hr {
+  border-width: 3px;
+  border-color: rgba(136, 212, 152, 0.3); }
+
+.razor-blade::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  transform-origin: top right;
+  transform: skewY(-10deg); }
+
+.rotate-clock-translate-left-down {
+  transform: rotate(20deg) translate(-50px, 25px); }
+
+.rotate-clock-translate-right-up {
+  transform: rotate(20deg) translate(50px, -25px); }
+
+.rotate-anticlock-translate-left-up {
+  transform: rotate(-20deg) translate(-50px, -25px); }
+
+.rotate-anticlock-translate-right-down {
+  transform: rotate(-20deg) translate(50px, 25px); }
+
+.inline-subscribe {
+  background: url(../img/inline-subscribe-1-lg.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
+  position: relative; }
+  .inline-subscribe::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(243, 233, 210, 0.8); }
+
+#latest-posts > * {
+  position: relative;
+  z-index: 10; }
+
+#latest-posts .recipe-img {
+  height: 350px; }
+
+#about-me > * {
+  position: relative;
+  z-index: 1000; }
+  #about-me > * .img-fluid {
+    height: 600px; }
+
+#our-team::before {
+  transform-origin: top left; }
+
+#recipes-gallery .recipe-img,
+#recipes .recipe-img {
+  height: 250px; }
+
+#recipes-gallery .card-body,
+#recipes .card-body {
+  position: relative;
+  z-index: 100; }
+
+#recipes-gallery .card > span,
+#recipes .card > span {
+  top: 250px;
+  z-index: 1000; }
+
+#blog-posts .posts .recipe-img {
+  height: 350px; }
+
+#recipes-slider .trending-recipes-slider > div {
+  height: 155px; }
+
+#recipes-slider .slick-next::before, #recipes-slider .slick-prev::before {
+  color: #88D498; }
+
+.blog-recipe {
+  margin-top: 10rem; }
+  .blog-recipe div.position-relative img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: -100px; }
+
+article ol {
+  list-style: upper-roman !important; }
