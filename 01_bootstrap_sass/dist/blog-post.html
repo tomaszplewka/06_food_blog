@@ -84,7 +84,7 @@
             </div>
         </div>
     </header>
-    <section id="recipes-slider" class="my-4">
+    <section id="recipes-slider" class="pt-3 pb-1">
         <div class="container">
             <div class="trending-recipes-slider">
                 <div>
@@ -252,7 +252,7 @@
                         <div class="embed-responsive embed-responsive-16by9 mt-3 mb-5">
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jJ9WBmsTI1c" allowfullscreen></iframe>
                         </div>
-                        <div class="bg-light text-black blog-recipe text-center">
+                        <div class="bg-light text-black blog-recipe text-center p-1">
                             <div class="position-relative">
                                 <img src="./img/blog-post-potato-1-sm.jpg" alt="" class="img-fluid rounded-circle border border-primary">
                             </div>
@@ -278,7 +278,7 @@
                                     <p class="m-0">5 mins</p>
                                 </div>
                                 <div class="col-md-6 d-flex justify-content-center align-items-center my-2">
-                                    <i class="fas fa-utensils fa-2x mr-1"></i>
+                                    <i class="fas fa-utensils fa-2x mr-2"></i>
                                     <small class="text-muted mr-1">yield:</small>
                                     <p class="m-0">2 servings</p>
                                 </div>
@@ -290,16 +290,16 @@
                                     <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas iste hic saepe voluptas quisquam blanditiis! Natus explicabo ea odio porro?</p>
                                     <hr class="w-75 my-4">
                                     <h4 class="h4"><span class="text-primary">ingredients</span></h4>
-                                    <ul class="list-group text-black my-3">
-                                        <li class="list-group-item">Cras justo odio</li>
-                                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                                        <li class="list-group-item">Morbi leo risus</li>
-                                        <li class="list-group-item">Porta ac consectetur ac</li>
-                                        <li class="list-group-item">Vestibulum at eros</li>
+                                    <ul class="my-3 ingredients">
+                                        <li class=""><p>Cras justo odio</p></li>
+                                        <li class=""><p>Cras justo odio</p></li>
+                                        <li class=""><p>Cras justo odio</p></li>
+                                        <li class=""><p>Cras justo odio</p></li>
+                                        <li class=""><p>Cras justo odio</p></li>
                                     </ul>
                                     <hr class="w-75 my-4">
                                     <h4 class="h4"><span class="text-primary">instructions</span></h4>
-                                    <ol class="text-white my-3">
+                                    <ol class="text-white my-3 instructions">
                                         <li class=""><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat earum amet adipisci reprehenderit perferendis ipsa.</p></li>
                                         <li class=""><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat earum amet adipisci reprehenderit perferendis ipsa.
                                         </p></li>
@@ -310,6 +310,37 @@
                                         <li class=""><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat earum amet adipisci reprehenderit perferendis ipsa.
                                         </p></li>
                                     </ol>
+                                    <hr class="w-75 my-4">
+                                    <h4 class="h4"><span class="text-primary">notes</span></h4>
+                                    <ul class="my-3 notes text-black">
+                                        <li class="">
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, voluptatem!</p>
+                                        </li>
+                                        <li class="">
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </li>
+                                        <li class="">
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem illum commodi modi eaque aut?</p>
+                                        </li>
+                                        <li class="">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                        </li>
+                                        <li class="">
+                                            <p>Cras justo odio</p>
+                                        </li>
+                                    </ul>
+                                    <div class="cuisine-category row text-center">
+                                        <div class="col-lg-6 mb-2">
+                                            <i class="fas fa-folder mr-1"></i>
+                                            Category:
+                                            <span class="category text-muted"> Traditional</span>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <i class="fas fa-flag mr-1"></i>
+                                            Cuisine:
+                                            <span class="cuisine text-muted"> Worldwide</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -541,6 +572,8 @@
                 speed: 300,
                 slidesToShow: 3,
                 slidesToScroll: 3,
+                autoplay: true,
+                autoplaySpeed: 3000,
                 // responsive: [
                 //     {
                 //         breakpoint: 1024,

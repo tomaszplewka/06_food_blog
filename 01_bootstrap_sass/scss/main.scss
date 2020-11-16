@@ -237,6 +237,9 @@ hr {
 
 #recipes-slider {
 
+    background: url(../img/header-showcase-1-lg.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+
     .trending-recipes-slider {
         
         > div {
@@ -246,6 +249,10 @@ hr {
     
     .slick-next::before, .slick-prev::before {
         color: #88D498;
+    }
+
+    .slick-dots li button::before {
+        color: white;
     }
 }
 
@@ -265,8 +272,80 @@ hr {
 
 }
 
-article ol {
-    list-style: upper-roman !important;
+ul.ingredients {
+
+    list-style-type: none;
+    padding: 0;
+
+    li {
+        padding-left: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+    li:before {
+        font-family: 'Font Awesome 5 Free';
+        content: "\f0c8";
+        color: #88D498;
+        float: left;
+    }
+
+    p {
+        padding-left: 2rem;
+    }
+
+}
+
+ol.instructions {
+
+    list-style-type: none;
+    padding: 0;
+
+    li {
+        padding-left: 1.1rem;
+        margin-bottom: 0.75rem;
+        counter-increment: customlistcounter;
+    }
+    li:before {
+        content: counter(customlistcounter) " ";
+        color:#1A9351;
+        float: left;
+        background-color: white;
+        padding: 0 9px 2px 9px;
+        border-radius: 50%;
+    }
+
+    p {
+        padding-left: 2.3rem;
+    }
+
+}
+
+ul.notes {
+
+    list-style-type: none;
+    padding: 0;
+
+    li {
+        padding: 0.25rem;
+        padding-left: 1.1rem;
+        margin-bottom: 0.75rem;
+        background-color: #F3E9D2;
+        clip-path: polygon(15px 0, 100% 0, 100% 100%, 0 100%, 0 15px);
+    }
+    li:before {
+        content: "!";
+        color:#1A9351;
+        font-weight: bold;
+        float: left;
+        background-color: #88D498;
+        padding: 0 10px 1px 10px;
+        border-radius: 50%;
+    }
+
+    p {
+        padding-left: 2.3rem;
+        margin: 0;
+    }
+
 }
 
 // 
