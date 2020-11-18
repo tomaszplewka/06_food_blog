@@ -28,7 +28,7 @@
 - [x] Fully responsive website
 - [x] Comes in as:
   - [x] a static website developed with custom Bootstrap theme
-  - [x] a dynamic website developed with Bootstrap theme and PHP in the Back End (not available yet)
+  - [x] a dynamic website developed with custom Bootstrap theme and PHP in the Back End (not available yet)
 
 # Demo
 
