@@ -223,7 +223,8 @@ ul.notes {
     padding-left: 1.1rem;
     margin-bottom: 0.75rem;
     background-color: #F3E9D2;
-    clip-path: polygon(15px 0, 100% 0, 100% 100%, 0 100%, 0 15px); }
+    clip-path: polygon(15px 0, 100% 0, 100% 100%, 0 100%, 0 15px);
+    border-radius: 10px; }
   ul.notes li:before {
     content: "!";
     color: #1A9351;
@@ -235,3 +236,6 @@ ul.notes {
   ul.notes p {
     padding-left: 2.3rem;
     margin: 0; }
+
+.nutrition-facts hr {
+  border-width: 1px; }

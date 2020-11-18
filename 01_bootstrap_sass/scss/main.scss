@@ -330,6 +330,7 @@ ul.notes {
         margin-bottom: 0.75rem;
         background-color: #F3E9D2;
         clip-path: polygon(15px 0, 100% 0, 100% 100%, 0 100%, 0 15px);
+        border-radius: 10px;
     }
     li:before {
         content: "!";
@@ -344,6 +345,14 @@ ul.notes {
     p {
         padding-left: 2.3rem;
         margin: 0;
+    }
+
+}
+
+.nutrition-facts {
+
+    hr {
+        border-width: 1px;
     }
 
 }
