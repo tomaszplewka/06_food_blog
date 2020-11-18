@@ -158,19 +158,8 @@ hr {
 }
 
 .inline-subscribe {
-    background: url(../img/inline-subscribe-1-lg.jpg) no-repeat center center/cover;
+    background: url(../img/header-showcase-1-lg.jpg) no-repeat center center/cover;
     background-attachment: fixed;
-    position: relative;
-
-    &::before {
-        content: '';
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: rgba(243, 233, 210, 0.8);
-    }
 }
 
 #latest-posts {
@@ -353,6 +342,57 @@ ul.notes {
 
     hr {
         border-width: 1px;
+    }
+
+}
+
+.rate-recipe {
+
+    label input[type=radio] {
+        position: absolute;
+        opacity: 0;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    .star-rating {
+        
+        .checked {
+            display: none;
+        }
+
+    }
+
+    .check-star:hover .star-rating i {
+        color: gray;
+    }
+
+    label input[type=radio]:checked + .star-rating .unchecked {
+        display: none;
+    }
+
+    label input[type=radio]:checked + .star-rating .checked {
+        display: inline;
+    }
+
+}
+
+.comments-section {
+
+    .heading-hr {
+        border-width: 5px;
+    }
+
+    .comment-avatar-container {
+        width: 150px;
+        height: 150px;
+        background: black;
+        border-radius: 50%;
+    }
+
+    a:hover {
+        color: white;
     }
 
 }
