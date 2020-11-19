@@ -261,3 +261,33 @@ ul.notes {
 
 .comments-section a:hover {
   color: white; }
+
+@media screen and (max-width: 767px) {
+  header .header-search {
+    background: url(../img/header-showcase-1-md.jpg) no-repeat center center/cover;
+    background-attachment: fixed; }
+  .inline-subscribe {
+    background: url(../img/header-showcase-1-md.jpg) no-repeat center center/cover;
+    background-attachment: fixed; }
+  #recipes-slider {
+    background: url(../img/header-showcase-1-md.jpg) no-repeat center center/cover;
+    background-attachment: fixed; }
+  .card-columns {
+    column-count: 2; }
+  #subscribe-navbar div:first-child {
+    text-align: center; } }
+
+@media screen and (max-width: 575px) {
+  .card-columns {
+    column-count: 1; }
+  .rotate-anticlock-translate-right-down {
+    transform: rotate(-20deg) translate(0px, 25px);
+    z-index: 100; }
+  .rotate-clock-translate-left-down {
+    transform: rotate(20deg) translate(0px, 25px);
+    z-index: 100; }
+  .rotate-clock-translate-right-up {
+    transform: rotate(20deg) translate(0px, -25px);
+    z-index: 100; }
+  .rotate-anticlock-translate-left-up {
+    transform: rotate(-20deg) translate(0px, -25px); } }

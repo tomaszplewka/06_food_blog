@@ -19,7 +19,7 @@
         <div class="container-fluid bg-dark text-white">
             <div class="container">
                 <div class="row align-items-center py-2" id="subscribe-navbar">
-                    <div class="col-md-7">
+                    <div class="col-md-7 mb-1">
                         <h5 class="h5 d-inline">subscribe</h5>
                         <small class="text-white">and get our eCookbook</small>
                     </div>
@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="container-fluid bg-light">
-            <div class="container">
+            <div class="container-md p-0">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <a href="index.html" class="navbar-brand">my <span class="text-primary">food</span> blog</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
@@ -81,10 +81,12 @@
         </div>
     </header>
     <section id="recipes" class="bg-dark py-5 text-white">
-        <div class="container">
+        <div class="container-md">
             <div class="row">
-                <div class="col-md-9">
+                <div class="col-12">
                     <h2 class="h2">browse <span class="text-primary">recipes</span></h2>
+                </div>
+                <div class="col-md-9 order-md-1 order-2">
                     <div class="card-group mt-2 mb-4">
                         <div class="card border-primary shadow position-relative overflow-hidden">
                             <a href="blog-post.html">
@@ -274,9 +276,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 my-5">
-                    <form action="">
-                        <fieldset class="p-3 bg-light rounded mb-4">
+                <div class="col-md-3 my-2 order-md-2 order-1">
+                    <form action="" class="row m-1">
+                        <fieldset class="bg-light rounded mb-4 m-sm-auto mb-sm-4 col-md-12 col-sm-5">
                             <legend class="m-0 text-center bg-secondary rounded text-dark">breakfast</legend>
                             <div class="form-group text-dark">
                                 <div class="custom-control custom-checkbox">
@@ -297,7 +299,7 @@
                                 </div>
                             </div>
                         </fieldset>
-                        <fieldset class="p-3 bg-light rounded mb-4">
+                        <fieldset class="bg-light rounded mb-4 m-sm-auto mb-sm-4 col-md-12 col-sm-5">
                             <legend class="m-0 text-center bg-secondary rounded text-dark">lunch</legend>
                             <div class="form-group text-dark">
                                 <div class="custom-control custom-checkbox">
@@ -318,7 +320,7 @@
                                 </div>
                             </div>
                         </fieldset>
-                        <fieldset class="p-3 bg-light rounded mb-4">
+                        <fieldset class="bg-light rounded mb-4 m-sm-auto mb-sm-4 col-md-12 col-sm-5">
                             <legend class="m-0 text-center bg-secondary rounded text-dark">dinner</legend>
                             <div class="form-group text-dark">
                                 <div class="custom-control custom-checkbox">
@@ -339,7 +341,7 @@
                                 </div>
                             </div>
                         </fieldset>
-                        <fieldset class="p-3 bg-light rounded">
+                        <fieldset class="bg-light rounded mb-4 m-sm-auto mb-sm-4 col-md-12 col-sm-5">
                             <legend class="m-0 text-center bg-secondary rounded text-dark">dessert</legend>
                             <div class="form-group text-dark">
                                 <div class="custom-control custom-checkbox">
@@ -364,7 +366,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-9">
+                <div class="col-12 col-md-9">
                     <nav>
                         <ul class="pagination justify-content-end">
                             <li class="page-item disabled">
@@ -388,20 +390,21 @@
         <div class="container-fluid text-dark">
             <div class="container">
                 <div class="row align-items-center py-2" id="subscribe-navbar">
-                    <div class="col-md-6 text-white">
+                    <div class="col-lg-6 text-white">
                         <h5 class="display-4">like what you see? </h5>
                         <p class="lead">sign up for our weekly newsletter!</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="input-group input-group-lg">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                             </div>
                             <input type="email" class="form-control" placeholder="email your email">
-                            <div class="input-group-append">
+                            <div class="input-group-append d-none d-sm-block">
                                 <button class="btn btn-secondary" type="button">sign up</button>
                             </div>
                         </div>
+                        <button type="button" class="btn btn-secondary btn-lg btn-block d-sm-none mt-3">sign up</button>
                     </div>
                 </div>
             </div>
@@ -409,8 +412,8 @@
     </section>
     <footer id="home-footer" class="bg-dark text-white py-5">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
+            <div class="row align-items-center">
+                <div class="col-md-3 col-sm-6 mb-3 mb-sm-0">
                     <div class="card text-dark text-center bg-secondary">
                         <div class="card-header">
                             my <span class="text-primary">food</span> blog
@@ -423,18 +426,20 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="card text-dark text-center bg-secondary">
                         <div class="card-header">
                             food <span class="text-primary">&</span> recipes
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item p-0 bg-transparent"><a href="recipes.html" class="btn btn-link text-dark">recipes</a></li>
-                            <li class="list-group-item p-0 bg-transparent"><a href="blog.html" class="btn btn-link text-dark">blog</a></li>
+                            <li class="list-group-item p-0 bg-transparent"><a href="recipes.html"
+                                    class="btn btn-link text-dark">recipes</a></li>
+                            <li class="list-group-item p-0 bg-transparent"><a href="blog.html"
+                                    class="btn btn-link text-dark">blog</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-6 ml-auto text-center">
+                <div class="col-md-6 ml-auto text-center mt-3">
                     <h5 class="h5 d-inline">sign up</h5>
                     <small class="text-white">for weekly email updates now</small>
                     <div class="input-group my-3">
@@ -446,7 +451,7 @@
                             <button class="btn btn-secondary" type="button">sign up</button>
                         </div>
                     </div>
-                    <div class="social d-flex justify-content-center">
+                    <div class="social d-flex justify-content-center mt-3">
                         <p class="lead mr-3">follow us</p>
                         <div class="social-icon mr-2">
                             <a href="https://www.facebook.com/" target="_blank"><i
@@ -472,7 +477,7 @@
                 </div>
             </div>
             <div class="row mt-3">
-                <div class="col-sm-8 m-auto text-center">
+                <div class="col-lg-8 m-auto text-center">
                     <p class="lead">all rights reserved. &copy; 2020. my food blog</p>
                 </div>
             </div>
